@@ -12,7 +12,7 @@ body {
     display: flex;
     gap: 20px;
 }
-
+/*Header CSS*/
 header {
     background-color: #6a0779;
     color: white;
@@ -24,7 +24,7 @@ header h1 {
     margin: 0;
     font-size: 2.5rem;
 }
-
+/*main content CSS*/
 .main-content {
     flex: 2;
     display: flex;
@@ -43,7 +43,7 @@ header h1 {
     margin-top: 0;
     color: #6a0779;
 }
-
+/*Sidebar CSS*/
 .sidebar {
     flex: 1;
     background: white;
@@ -70,7 +70,7 @@ header h1 {
     margin-bottom: 0;
     padding-bottom: 0;
 }
-
+/* Footer CSS*/
 footer {
     text-align: center;
     padding: 20px;
@@ -78,3 +78,4 @@ footer {
     border-top: 1px solid #ccc;
     background: #fafafa;
 }
+

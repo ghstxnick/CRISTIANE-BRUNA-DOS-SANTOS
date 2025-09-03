@@ -76,3 +76,9 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #ccc;
 }
+
+.Logo_Hall {
+    width: 7%;
+    height: 7%;
+    display: flex;
+}

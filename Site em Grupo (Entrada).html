@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site de Notícias</title>
+    <title>FDS NEWS</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-
     <header>
         <div class="container">
             <img src="Logo_Hall.png" class="Logo_Hall">
+            <nav>
+                <ul class="menu">
+                    <li><a href="Site em Grupo (Entrada).html">Home</a></li>
+                    <li><a href="#">Esportes</a></li>
+                    <li><a href="#">Política</a></li>
+                    <li><a href="#">Esportes</a></li>
+                    <li><a href="#">Moda</a></li>
+                    <li><a href="#">Conhecimentos</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <div class="container main-content">
         <main class="main-news">
-            <article>
-                <img src="https://iclnoticias.com.br/wp-content/uploads/2025/03/movimento-ambientalista-960x540.webp" alt="Imagem da Notícia Principal">
-                <h2>Notícia Capa</h2>
-                <p>Aqui você pode colocar um resumo da notícia principal. O texto deve ser envolvente e direto ao ponto para atrair o leitor a continuar lendo. Você pode ter vários parágrafos aqui para detalhar o conteúdo.</p>
-                <p>Este é o segundo parágrafo da notícia principal, onde você pode aprofundar nos detalhes e informações relevantes. Lembre-se de substituir este texto por conteúdo real e interessante.</p>
-                <a href="#">Leia mais &raquo;</a>
+            <article class="p-3 border rounded shadow-sm">
+                <a href="Site em Grupo (Entrada).html">
+                    <img src="https://www.infomoney.com.br/wp-content/uploads/2023/12/53411117400_eb68789da5_c.jpg?quality=70" 
+                    alt="Imagem da Notícia Principal" 
+                    class="img-fluid rounded mb-3">
+                </a>
+
+                <h2>Congresso Nacional aprova reforma tributária após meses de negociação.</h2>
+                <p>
+                    Após intensos debates e negociações, o Congresso Nacional aprovou uma ampla reforma tributária que promete simplificar o sistema de impostos no Brasil. A reforma visa reduzir a carga tributária sobre...
+                </p>
+
+                <div class="collapse mt-2" id="conteudo-expandivel">
+                    <p>pequenas e médias empresas, aumentar a transparência e estimular o crescimento econômico. Especialistas acreditam que a medida poderá gerar um ambiente mais favorável para investimentos e gerar mais empregos nos próximos anos.</p>
+                </div>
+
+                <a class="btn btn-link p-0" data-bs-toggle="collapse" href="#conteudo-expandivel" 
+                role="button" aria-expanded="false" aria-controls="conteudo-expandivel">
+                    Leia mais &raquo;
+                </a>
             </article>
         </main>
 
         <aside class="sidebar">
             <h2>Principais Notícias</h2>
             <article>
-                <h3><a href="#">Título da Notícia Secundária 1</a></h3>
-                <p>Breve resumo da notícia secundária. Foco na informação principal para que o leitor se interesse.</p>
+                <h3><a href="https://getbootstrap.com/">Desfile Victoria's Secret confirma data para edição de 2025</a></h3>
+                <p>Tradicional desfile da grife de lingerie acontece no dia 15 de outubro.</h2></p>
             </article>
             <article>
-                <h3><a href="#">Título da Notícia Secundária 2</a></h3>
-                <p>Breve resumo da notícia secundária. Foco na informação principal para que o leitor se interesse.</p>
+                <h3><a href="#">Guerreiras do Kpop é o Filme Mais Assistido da Netflix</a></h3>
+                <p>Guerreiras do K-Pop é oficialmente o título mais popular da história da Netflix. De acordo com o ranking oficial da plataforma, o filme...</p>
             </article>
             <article>
-                <h3><a href="#">Título da Notícia Secundária 3</a></h3>
-                <p>Breve resumo da notícia secundária. Foco na informação principal para que o leitor se interesse.</p>
+                <h3><a href="#">O Nintendo Switch 2 chega oficialmente às lojas brasileiras.</a></h3>
+                <p>Há uma versão do Switch 2 por R$ 4.800 que vem com o console, todos os acessórios e o jogo "Mario Kart world".</p>
             </article>
         </aside>
     </div>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Meu Site de Notícias. Todos os direitos reservados.</p>
+            <p>&copy; 2025 FDS News. Todos os direitos reservados.</p>
         </div>
     </footer>
-
 </body>
 </html>

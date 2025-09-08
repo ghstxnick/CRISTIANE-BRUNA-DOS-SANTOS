@@ -47,13 +47,13 @@ header h1 {
 
 .main-news h2 {
     margin-top: 0;
-    color: #6a0779;
+    color: #000000;
 }
 
 .main-news a {
     display: inline-block;
     margin-top: 10px;
-    color: #6a0779;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
@@ -93,7 +93,7 @@ header h1 {
 }
 
 .sidebar h3 a {
-    color: #6a0779;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -108,3 +108,7 @@ footer {
     border-top: 1px solid #ccc;
     color: #666;
 }
+ .lermais {
+        text-decoration: none;
+        color: black
+    }

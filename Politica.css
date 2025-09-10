@@ -127,4 +127,48 @@ footer {
     border-bottom: 3px solid #ffffff;  
     padding-bottom: 10px;           
 }
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* newsletter esquerda / copy centro */
+    align-items: center;
+    padding: 15px 0;
+    position: relative;
+}
 
+.copy {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px; /* maior que o padrão */
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.newsletter input[type="email"] {
+    padding: 6px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.newsletter button {
+    padding: 6px 12px;
+    background-color: #6a0779;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #52045a;
+}

@@ -129,7 +129,7 @@ footer {
 }
 .footer-content {
     display: flex;
-    justify-content: space-between; /* newsletter esquerda / copy centro */
+    justify-content: space-between;
     align-items: center;
     padding: 15px 0;
     position: relative;
@@ -139,7 +139,7 @@ footer {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 16px; /* maior que o padrão */
+    font-size: 16px;
     font-weight: bold;
     color: #333;
     text-align: center;

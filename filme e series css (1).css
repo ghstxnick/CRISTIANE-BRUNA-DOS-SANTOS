@@ -1,0 +1,489 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+/*Header CSS*/
+header {
+    background-color: #6a0779;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+/*main content CSS*/
+.main-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-news {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-news h2 {
+    margin-top: 0;
+    color: #6a0779;
+}
+
+/*Sidebar CSS*/
+.sidebar {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    color: #6a0779;
+}
+
+.sidebar article {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Footer CSS*/
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    background: #fafafa;
+}
+
+.image_play{
+    width: 80%;
+    height: 80%;
+}
+
+.HBO {
+    width: 60%;
+    height: 60%;
+}
+
+
+/* Corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff; 
+    color: #000000; 
+    line-height: 1.6;
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Título principal */
+h1 {
+    color: #6a0779;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.8em;
+}
+
+/* Subtítulo */
+h3 {
+    color: #6a0779;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1.05em;
+}
+
+/* Imagem principal da notícia */
+.alicebord {
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #eee;
+}
+
+/* Links */
+a {
+    color: #6a0779;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Cabeçalho roxo */
+.cabecalho-roxo {
+    background-color: #6a0779;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #470556;
+    margin-bottom: 30px;
+}
+
+.cabecalho-roxo h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Cabeçalho roxo */
+.cabecalho-guerreiras {
+    background-color: #6a0779;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #470556;
+    margin-bottom: 30px;
+}
+
+.cabecalho-guerreiras h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Imagem principal */
+.guerreiraskpop {
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto;
+    border: 2px solid #eee;
+    display: block;
+}
+
+/* Subtítulo */
+h3 {
+    color: #6a0779;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Parágrafos dentro do h3 */
+h3 p {
+    color: #000000;
+    font-size: 1.05em;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Negrito */
+strong {
+    color: #6a0779;
+}
+
+/* Links (se precisar futuramente) */
+a {
+    color: #6a0779;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #000000; 
+    line-height: 1.6;
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Cabeçalho roxo */
+.cabecalho-nintendo {
+    background-color: #6a0779;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #470556;
+    margin-bottom: 30px;
+}
+
+.cabecalho-nintendo h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Imagem principal */
+.nintendo2 {
+    width: 50%;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(106, 7, 121, 0.2);
+    border: 2px solid #eee;
+    display: block;
+
+}
+
+/* Subtítulo */
+h3 {
+    color: #6a0779;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Parágrafos dentro do h3 */
+h3 p {
+    color: #000000;
+    font-size: 1.05em;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Negrito */
+strong {
+    color: #6a0779;
+}
+
+/* Links (se precisar futuramente) */
+a {
+    color: #6a0779;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff; 
+    color: #000000; 
+    line-height: 1.6;
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Cabeçalho roxo */
+.cabecalho-horizon {
+    background-color: #6a0779;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #470556;
+    margin-bottom: 30px;
+}
+
+.cabecalho-horizon h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Imagem principal centralizada */
+.horizonvs {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #eee;
+    box-shadow: 0 0 10px rgba(106, 7, 121, 0.2);
+}
+
+/* Subtítulo */
+h3 {
+    color: #6a0779;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.05em;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Negrito */
+strong {
+    color: #6a0779;
+}
+
+/* Links (caso adicione futuramente) */
+a {
+    color: #6a0779;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.HBO2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #eee;
+    box-shadow: 0 0 10px rgba(106, 7, 121, 0.2);
+
+}
+
+.cabecalho-HBO {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Subtítulo */
+h1{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+h2{
+    color: #6a0779;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.05em;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Negrito */
+strong {
+    color: #6a0779;
+}
+
+/* Links (caso adicione futuramente) */
+a {
+    color: #6a0779;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.image_play2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #eee;
+    box-shadow: 0 0 10px rgba(106, 7, 121, 0.2);
+
+}
+
+.cabecalho-play {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Subtítulo */
+
+h1{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.05em;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Negrito */
+strong {
+    color: #6a0779;
+}
+
+/* Links (caso adicione futuramente) */
+a {
+    color: #6a0779;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}

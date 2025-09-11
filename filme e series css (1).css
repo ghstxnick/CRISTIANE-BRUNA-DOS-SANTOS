@@ -83,12 +83,20 @@ footer {
 
 .image_play{
     width: 80%;
-    height: 80%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #eee;
 }
 
 .HBO {
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: auto;
+    border-radius: 1px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #eee;
 }
 
 
@@ -443,6 +451,122 @@ a:hover {
 }
 
 .cabecalho-play {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Subtítulo */
+
+h1{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.05em;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Negrito */
+strong {
+    color: #6a0779;
+}
+
+/* Links (caso adicione futuramente) */
+a {
+    color: #6a0779;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.BD4_pt2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #eee;
+    box-shadow: 0 0 10px rgba(106, 7, 121, 0.2);
+
+}
+
+.cabecalho-border {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Subtítulo */
+
+h1{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.05em;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Negrito */
+strong {
+    color: #6a0779;
+}
+
+/* Links (caso adicione futuramente) */
+a {
+    color: #6a0779;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.silk2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #eee;
+    box-shadow: 0 0 10px rgba(106, 7, 121, 0.2);
+
+}
+
+.cabecalho-silk {
     color: #ffffff;
     font-size: 2.5em;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);

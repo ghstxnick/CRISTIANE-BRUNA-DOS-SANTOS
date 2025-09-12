@@ -9,7 +9,7 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    background-color: #6e6d6d11; /* Cor de fundo do menu */
+    background-color: #6e6d6d11;
     padding: 1rem 2rem;
     color: rgb(0, 0, 0);
 }

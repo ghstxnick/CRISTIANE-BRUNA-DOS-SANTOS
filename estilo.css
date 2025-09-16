@@ -9,7 +9,6 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    background-color: #6e6d6d11;
     padding: 1rem 2rem;
     color: rgb(0, 0, 0);
 }
@@ -44,6 +43,7 @@ header h1 {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 
 .main-news img {
     max-width: 100%;
@@ -83,6 +83,7 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #ccc;
 }
+
 
 .Logo_Hall {
     height: 50px;

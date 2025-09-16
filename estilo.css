@@ -1,9 +1,13 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
     background-color: #f4f4f4;
     color: #333;
-    margin-top: 7%;
 }
 
 .container {
@@ -18,11 +22,10 @@ header {
     background-color: rgb(144, 12, 148);
     color: white;
     padding: 0,2rem 0;
-    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    position: absolute;
+    
 }
 
 header h1 {
@@ -79,12 +82,11 @@ header h1 {
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    
+    position: static;
+    bottom: 0%;
     border-top: 1px solid #ccc;
 }
-
 
 .Logo_Hall {
     height: 50px;
@@ -104,22 +106,22 @@ nav{
 }
 
 .menu li{
-position:relative;
-float:left;
+    position:relative;
+    float:left;
 }
 
 .menu li a{color:#ffffff; text-decoration:none; padding:5px 10px; display:block;}
 
 .menu li a:hover{
-background:rgba(255, 255, 255, 0.49);
-color:#000000;;
+    background:rgba(255, 255, 255, 0.49);
+    color:#000000;;
 }
 
 .menu li  ul{
-position:absolute;
-left:0;
-background-color:rgb(85, 5, 97);
-display:none;
+    position:absolute;
+    left:0;
+    background-color:rgb(85, 5, 97);
+    display:none;
 }
 
 .secao-oculta {
@@ -155,12 +157,60 @@ display:none;
     width: 70%;
 }
 
-.login{
+.main-login{
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.lbuttons{
     text-align: center;
+}
+.lbuttonlink{
+    text-decoration: none;
+    color: white;
+}
+.cbuttonlink{
+    text-decoration: none;
+}
+.lbutton{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(144, 12, 148);
+    width: 20%;
+    height: 20%;
+}
+.cbutton{
+    border: rgb(144, 12, 148);
+    border-radius: 5px;
+    width: 20%;
+    height: 20%;
+}
+.login{
+    line-height: 1.8;
     
 }
 .ltitulo{
+    text-align: center;
     color: rgb(144, 12, 148);
-    font-size: 300%;
+    font-size: 250%;
 }
-
+.main-cadastro{
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.cadastro{
+    line-height: 1.8;
+}
+.ctitulo{
+    text-align: center;
+    color: rgb(144, 12, 148);
+    font-size: 250%;
+}
+.divcheck{
+    line-height: 1;
+}

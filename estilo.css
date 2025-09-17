@@ -227,11 +227,14 @@ nav {
 
 .main-cadastro {
     width: 50%;
-    background: white;
+    background: var(--background-login);
     padding: 20px;
     margin-top: 7%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 6%;
+    color: var(--cor-texto);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .cadastro {
@@ -240,7 +243,7 @@ nav {
 
 .ctitulo {
     text-align: center;
-    color: rgb(144, 12, 148);
+    color: var(--login-title);
     font-size: 250%;
 }
 
@@ -268,6 +271,7 @@ html, body {
     --background-body: #f4f4f4;
     --cor-texto: #000000; 
     --background-footer: rgb(144, 12, 148);
+    --background-login: #f4f4f4;
 }
 
 .site {
@@ -287,11 +291,13 @@ html, body {
 }
 
 #ferramenta:checked ~ .site {
-    --background-body: #1A1A1A;
+    --background-body: #383838;
     --cor-texto: #ffffff;
     --background-bar: #2A2B2D;
     --background-news: #2A2B2D;
     --background-footer: #640068;
+    --login-title: rgb(222, 42, 228);
+    --background-login: #505050; 
 }
 
 .dark-mode {

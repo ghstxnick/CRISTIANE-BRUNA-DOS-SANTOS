@@ -7,12 +7,19 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="/estilo.css">
     <link rel="shortcut icon" href="/Logo_Hall.ico">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <input type="checkbox" id="ferramenta" hidden>
     <header>
         <div class="container">
-            <img src="/Logo_Hall.png" class="Logo_Hall">
+            <img src="../Logo_Hall.png" class="Logo_Hall" alt="Logo do site">
             <nav>
                 <ul class="menu">
                     <li><a href="/index.html">Home</a></li>
@@ -23,36 +30,51 @@
                     <li><a href="/geek/geek.html">Cultura Geek</a></li>
                 </ul>
             </nav>
+            <label for="ferramenta" class="dark-mode">
+                <i class='bx bx-brightness-half'></i> 
+            </label>
         </div>
+        
     </header>
+    <div class="site">
+    
+        <div class="container main-content">
+            <main class="main-cadastro">
+                <div class="cadastro">
+                    <h2 class="ctitulo">CADASTRO</h2>
+                    
+                    <form method="post" class="form-cadastro">
+                    <p>Informe seu nome completo:</p>
+                    <input type="text" placeholder="Nome Completo" id="nome" name="nome" required>
 
-    <div class="container main-content">
-        <main class="main-cadastro">
-            <div class="cadastro">
-                <h2 class="ctitulo">CADASTRO</h2>
-                <p>Informe seu nome completo:</p>
-                <input type="text" placeholder="Nome Completo" id="nome">
-                <p>Informe sua data de nascimento:</p>
-                <input type="date" id="data">
-                <p>Informe seu email ou nome de usuario:</p>
-                <input type="email" placeholder="Ex: email@email.com.br" id="mail">
-                <p>Digite a sua Senha:</p>
-                <input type="password" placeholder="Senha" id="pass">
-                <p>Digite a sua Senha novamente:</p>
-                <input type="password" placeholder="Senha" id="pass">
-                <p>Selecione qual tipo de noticia gostaria de ser notificado:</p>
-                <div class="divcheck">
-                    <p><input type="checkbox" name="" id="p">Politica</p>
-                    <p><input type="checkbox" name="" id="m">Moda</p>
-                    <p><input type="checkbox" name="" id="c">Ciencia</p>
-                    <p><input type="checkbox" name="" id="e">Esportes</p>
-                    <p><input type="checkbox" name="" id="g">Cultura Geek</p>
-                    <div class="cbut">
-                        <button class="lbutton"><a href="/index.html"
-                                class="lbuttonlink">Cadastre-se</a></button>
+                    <p>Informe sua data de nascimento:</p>
+                    <input type="date" id="data" name="data" required>
+
+                    <p>Informe seu email ou nome de usuário:</p>
+                    <input type="email" placeholder="Ex: email@email.com.br" id="email" name="email" required>
+
+                    <p>Digite a sua senha:</p>
+                    <input type="password" placeholder="Senha" id="senha" name="senha" required>
+
+                    <p>Digite a sua senha novamente:</p>
+                    <input type="password" placeholder="Repita a senha" id="confirmarSenha" name="confirmarSenha" required>
+
+                    <p>Selecione quais tipos de notícia gostaria de ser notificado:</p>
+                    <div class="divcheck">
+                        <label><input type="checkbox" name="noticias[]" value="politica" id="p"> Política</label><br>
+                        <label><input type="checkbox" name="noticias[]" value="moda" id="m"> Moda</label><br>
+                        <label><input type="checkbox" name="noticias[]" value="ciencia" id="c"> Ciência</label><br>
+                        <label><input type="checkbox" name="noticias[]" value="esportes" id="e"> Esportes</label><br>
+                        <label><input type="checkbox" name="noticias[]" value="geek" id="g"> Cultura Geek</label>
                     </div>
+
+                    <div class="cbut">
+                        <button type="submit" class="lbutton">Cadastre-se</button>
+                    </div>
+                    </form>
                 </div>
-            </div>
+            </main>
+        </div>
     </div>
     <footer>
         <div class="copy">

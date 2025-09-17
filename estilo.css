@@ -214,6 +214,10 @@ nav {
     width: 20%;
     height: 20%;
 }
+.cbut{
+    display: flex;
+    align-items: center;
+}
 
 .login {
     line-height: 1.8;

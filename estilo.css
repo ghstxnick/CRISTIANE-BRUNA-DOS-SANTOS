@@ -397,7 +397,7 @@ header h1 {
 
 footer {
     border-top: 1px solid #ccc;
-    height: 10vh;
+    height: 18vh;
     padding: 1%;
     background-color: var(--background-footer);
     color: white;

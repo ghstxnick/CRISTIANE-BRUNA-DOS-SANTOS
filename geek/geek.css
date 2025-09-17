@@ -163,10 +163,10 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.alice_bord, .guerreiras, .HBO, .nintendo2, .image_play, .BD4_pt2, .silk2 {
-    width: 80%;
+.alice_bord, .guerreiras, .HBO, .nintendo2, .image_play, .silk2 {
+    width: 60%;
     max-width: 100%;
-    height: auto;
+    height: 60%;
     display: block;
     margin: 0 auto 15px auto;
     border-radius: 12px;

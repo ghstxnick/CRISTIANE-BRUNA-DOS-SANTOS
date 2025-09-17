@@ -4,6 +4,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     margin-top: 7%;
+    line-height: 1.6;
 }
 
 .container {
@@ -13,22 +14,64 @@ body {
     padding: 1rem 2rem;
     gap: 20px;
     color: rgb(0, 0, 0);
+    max-width: 1100px;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 header {
     background-color: rgb(144, 12, 148);
     color: white;
-    padding: 0,2rem 0;
+    padding: 0.2rem 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    position: absolute;
 }
 
-header h1 {
+header img.Logo_Hall {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    align-items: end;
+    margin-top: 3%;
+}
+
+.menu {
+    list-style: none;
     margin: 0;
-    font-size: 2.5rem;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.menu li a:hover {
+    background: rgba(255, 255, 255, 0.49);
+    color: #000;
+}
+
+.menu li ul {
+    position: absolute;
+    left: 0;
+    background-color: rgb(85, 5, 97);
+    display: none;
 }
 
 .main-content {
@@ -50,6 +93,35 @@ header h1 {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.main-news h2 {
+    font-size: 2.2rem;
+    color: #6a0779;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.main-news p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 1.05em;
+}
+
+.main-news a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6a0779;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.main-news a:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
 }
 
 .sidebar {
@@ -64,6 +136,7 @@ header h1 {
     margin-top: 0;
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
+    color: #6a0779;
 }
 
 .sidebar article {
@@ -78,47 +151,62 @@ header h1 {
     padding-bottom: 0;
 }
 
+.sidebar img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 8px;
+    border: 2px solid #eee;
+}
+
 footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
     border-top: 1px solid #ccc;
+    background: #fafafa;
+    color: #333;
 }
 
-.Logo_Hall {
+footer img {
     height: 50px;
 }
-nav{
-    display: flex;
-    text-align: center;
-    align-items: end;
-    margin-top: 3%;
-}
-.menu{
-    list-style: none;
-    display: cen;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+
+footer a {
+    color: #6a0779;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.menu li{
-position:relative;
-float:left;
+footer a:hover {
+    text-decoration: underline;
 }
 
-.menu li a{color:#ffffff; text-decoration:none; padding:5px 10px; display:block;}
 
-.menu li a:hover{
-background:rgba(255, 255, 255, 0.49);
-color:#000000;;
+.vic, .ult, .nyfw, .ryzi_collab {
+    width: 60%;
+    max-width: 100%;
+    height: 60%;
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 12px;
+    border: 2px solid #eee;
+    box-shadow: 0 0 10px rgba(106, 7, 121, 0.2);
 }
 
-.menu li  ul{
-position:absolute;
-left:0;
-background-color:rgb(85, 5, 97);
-display:none;
+#leia-mais-link, .lermais {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6a0779;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+#leia-mais-link:hover, .lermais:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
 }
 
 .secao-oculta {
@@ -130,20 +218,4 @@ display:none;
 .secao-expandida {
     max-height: 500px;
     transition: max-height 0.7s ease-in;
-}
-
-#leia-mais-link {
-    display: inline-block;
-    margin-top: 10px;
-    color: #007bff;
-    text-decoration: none;
-    transition: transform 0.3s ease;
-}
-
-#leia-mais-link:hover {
-    transform: scale(1.05);
-    text-decoration: underline;
-}
-.vic{
-  width: 80%;
 }

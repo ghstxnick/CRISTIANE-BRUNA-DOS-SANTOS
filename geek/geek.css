@@ -1,12 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-}
-
-
 .container {
     max-width: 1100px;
     margin: auto;
@@ -15,42 +6,6 @@ body {
     gap: 20px;
     flex-wrap: wrap;
 }
-
-header {
-    background-color: #6a0779;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-header img.Logo_Hall {
-    height: 50px;
-}
-
-nav ul.menu {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin: 10px 0 0 0;
-    padding: 0;
-}
-
-nav ul.menu li a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-    display: block;
-    font-weight: bold;
-    transition: all 0.3s;
-}
-
-nav ul.menu li a:hover {
-    background-color: rgba(255, 255, 255, 0.4);
-    color: #000;
-    border-radius: 5px;
-}
-
 
 .main-news {
     flex: 2;
@@ -139,30 +94,6 @@ nav ul.menu li a:hover {
     font-size: 1.05em;
     text-align: justify;
 }
-
-footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
-    background: #fafafa;
-    color: #333;
-}
-
-footer img {
-    height: 50px;
-}
-
-footer a {
-    color: #6a0779;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
 .alice_bord, .guerreiras, .HBO, .nintendo2, .image_play, .silk2 {
     width: 60%;
     max-width: 100%;

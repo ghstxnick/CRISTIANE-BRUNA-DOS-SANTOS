@@ -7,43 +7,59 @@
     <title>Login</title>
     <link rel="stylesheet" href="/estilo.css">
     <link rel="shortcut icon" href="/Logo_Hall.ico">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <img src="/Logo_Hall.png" class="Logo_Hall">
-            <nav>
-                <ul class="menu">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/esporte/esporte.html">Esportes</a></li>
-                    <li><a href="/politica/Politica.html">Política</a></li>
-                    <li><a href="/moda/site-moda.html">Moda</a></li>
-                    <li><a href="/ciencia/Conhecimentos.html">Conhecimentos</a></li>
-                    <li><a href="/geek/geek.html">Cultura Geek</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <div class="container main-content">
-        <main class="main-login">
-            <div class="login">
-                <h2 class="ltitulo">LOGIN</h2>
-                <p>Informe seu email ou nome de usuario</p>
-                <input type="email" placeholder="Ex: email@email.com.br" id="mail">
-                <p>Digite a sua Senha</p>
-                <input type="password" placeholder="Senha" id="pass">
-                <a href="#">
-                    <p>Esqueci a Senha</p>
-                </a>
-                <div class="lbuttons">
-                    <button class="cbutton"><a href="cadastro.html" class="cbuttonlink">Cadastre-se</a></button>
-                    <button class="lbutton"><a href="/index.html"
-                            class="lbuttonlink">Login</a></button>
-                </div>
-
+    <input type="checkbox" id="ferramenta" hidden>
+    <div class="site">
+        <header>
+            <div class="container">
+                <img src="/Logo_Hall.png" class="Logo_Hall">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/esporte/esporte.html">Esportes</a></li>
+                        <li><a href="/politica/Politica.html">Política</a></li>
+                        <li><a href="/moda/site-moda.html">Moda</a></li>
+                        <li><a href="/ciencia/Conhecimentos.html">Conhecimentos</a></li>
+                        <li><a href="/geek/geek.html">Cultura Geek</a></li>
+                    </ul>
+                </nav>
+                <label for="ferramenta" class="dark-mode">
+                    <i class='bx bx-brightness-half'></i> 
+                </label>
             </div>
+        </header>
+    
+        <div class="container main-content">
+            <main class="main-login">
+                <div class="login">
+                    <h2 class="ltitulo">LOGIN</h2>
+
+                    <form method="post" action="/index.html" class="form-login">
+                        <p>Informe seu email ou nome de usuário</p>
+                        <input type="email" placeholder="Ex: email@email.com.br" id="mail" name="email" required>
+
+                        <p>Digite a sua Senha</p>
+                        <input type="password" placeholder="Senha" id="pass" name="senha" required>
+
+                        <a href="#">
+                        <p>Esqueci a Senha</p>
+                        </a>
+
+                        <div class="lbuttons">
+                            <a href="cadastro.html" class="cbuttonlink">
+                            <button type="button" class="cbutton">Cadastre-se</button>
+                            </a>
+
+                            <button type="submit" class="lbutton">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </main>
+        </div>
     </div>
     <footer>
         <div class="copy">

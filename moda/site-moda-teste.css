@@ -19,19 +19,7 @@ body {
     flex-wrap: wrap;
 }
 
-header {
-    background-color: rgb(144, 12, 148);
-    color: white;
-    padding: 0.2rem 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
 
-header img.Logo_Hall {
-    height: 50px;
-}
 
 nav {
     display: flex;

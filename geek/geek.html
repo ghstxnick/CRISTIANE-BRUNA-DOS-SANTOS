@@ -8,84 +8,92 @@
     <link rel="stylesheet" href="geek.css" />
     <link rel="stylesheet" href="/estilo.css">
     <link rel="shortcut icon" href="/Logo_Hall.ico">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <img src="/Logo_Hall.png" class="Logo_Hall">
-            <nav>
-                <ul class="menu">
-                    <li><a href="/trabalho-dev-web/index.html">Home</a></li>
-                    <li><a href="/trabalho-dev-web/esporte/esporte.html">Esportes</a></li>
-                    <li><a href="/trabalho-dev-web/politica/Politica.html">Política</a></li>
-                    <li><a href="/trabalho-dev-web/moda/site-moda.html">Moda</a></li>
-                    <li><a href="/trabalho-dev-web/ciencia/Conhecimentos.html">Conhecimentos</a></li>
-                    <li><a href="/trabalho-dev-web/geek/geek.html">Cultura Geek</a></li>
-                </ul>
-            </nav>
+    <input type="checkbox" id="ferramenta" hidden>
+    <div class="site">
+        <header>
+            <div class="container">
+                <img src="/Logo_Hall.png" class="Logo_Hall">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="/trabalho-dev-web/index.html">Home</a></li>
+                        <li><a href="/trabalho-dev-web/esporte/esporte.html">Esportes</a></li>
+                        <li><a href="/trabalho-dev-web/politica/Politica.html">Política</a></li>
+                        <li><a href="/trabalho-dev-web/moda/site-moda.html">Moda</a></li>
+                        <li><a href="/trabalho-dev-web/ciencia/Conhecimentos.html">Conhecimentos</a></li>
+                        <li><a href="/trabalho-dev-web/geek/geek.html">Cultura Geek</a></li>
+                    </ul>
+                </nav>
+                <label for="ferramenta" class="dark-mode">
+                    <i class='bx bx-brightness-half'></i> 
+                </label>
+            </div>
+        </header>
+    
+        <div class="container main-content">
+    
+            
+            <main class="main-news">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiepTjFfshN_MweTDnxZb2f-Axyfpv7HNe7w&s"
+                        alt="Alice In Borderland 3ª Temporada" class="alice_bor">
+                    <h2>Alice In Borderland - 3ª Temporada</h2>
+                    <p>
+                        A série lançou um trailer recheado de novos jogos e desafios inéditos. A Netflix divulgou o trailer
+                        oficial da 3ª temporada de Alice in Borderland. A prévia prepara o público para um retorno
+                        eletrizante ao universo mortal da série japonesa.
+                    </p>
+                    <a href="./pages/alicebordland.html">Leia mais &raquo;</a>
+                </div>
+            </main>
+    
+            
+            <aside class="sidebar">
+                <h2>Principais Notícias</h2>
+    
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI6LVEFqPNxhMkyXuE3hihfTQS1tPuXue9YA&s"
+                        alt="Filme mais assistido Netflix" class="guerreiras">
+                    <h3><a href="./pages/guerreiraskpop.html">O Filme Mais Assistido da História da Netflix!</a></h3>
+                    <p>
+                        Ultrapassou a marca de 236 milhões de views em apenas dois meses de lançamento, e especula-se sobre
+                        possíveis continuações. A animação da Sony Pictures Animation distribuída pelo serviço de streaming
+                        simplesmente se tornou o filme mais visto da história da Netflix.
+                    </p>
+                </div>
+    
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR05pjnK0elS4sxL65Fk0_Jv2CbH0nhrC4uxp8crD6UTk-gMGWmIfrp8m5YbykvLpcyKhM&usqp=CAU"
+                        alt="Estreias HBO" class="HBO">
+                    <h3><a href="./pages/hbo.html">Estreias na HBO Max em setembro/2025</a></h3>
+                    <p>
+                        Já estão disponíveis as listas completas dos novos filmes e séries que chegam à plataforma no mês de
+                        setembro. Destaque para <strong>Friendship (2024)</strong>, estrelada por Paul Rudd, e
+                        <strong>Warfare (2025)</strong>, de Alex Garland.
+                    </p>
+                </div>
+    
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_DQN-8MOatqORbbis8SptV4bdHD0fp1wswQ&s"
+                        alt="Nintendo Switch 2" class="nintendo">
+                    <h3><a href="./pages/switch2.html">Switch 2 é lançado no Brasil</a></h3>
+                    <p>
+                        Gamescom destacou grandes lançamentos e a chegada oficial do novo console da Nintendo ao país.
+                    </p>
+                </div>
+    
+                <div>
+                    <img src="./imgs/play.jpg" alt="State of Play" class="image_play">
+                    <h3><a href="./pages/State of play.html">Novidades da PlayStation State of Play para setembro de 2025</a></h3>
+                    <p>A Sony anunciou sua edição de setembro da State of Play, que deverá destacar novidades empolgantes no universo PlayStation</p>
+                </div>
+            </aside>
+    
         </div>
-    </header>
-
-    <div class="container main-content">
-
-        
-        <main class="main-news">
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiepTjFfshN_MweTDnxZb2f-Axyfpv7HNe7w&s"
-                    alt="Alice In Borderland 3ª Temporada" class="alice_bor">
-                <h2>Alice In Borderland - 3ª Temporada</h2>
-                <p>
-                    A série lançou um trailer recheado de novos jogos e desafios inéditos. A Netflix divulgou o trailer
-                    oficial da 3ª temporada de Alice in Borderland. A prévia prepara o público para um retorno
-                    eletrizante ao universo mortal da série japonesa.
-                </p>
-                <a href="./pages/alicebordland.html">Leia mais &raquo;</a>
-            </div>
-        </main>
-
-        
-        <aside class="sidebar">
-            <h2>Principais Notícias</h2>
-
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI6LVEFqPNxhMkyXuE3hihfTQS1tPuXue9YA&s"
-                    alt="Filme mais assistido Netflix" class="guerreiras">
-                <h3><a href="./pages/guerreiraskpop.html">O Filme Mais Assistido da História da Netflix!</a></h3>
-                <p>
-                    Ultrapassou a marca de 236 milhões de views em apenas dois meses de lançamento, e especula-se sobre
-                    possíveis continuações. A animação da Sony Pictures Animation distribuída pelo serviço de streaming
-                    simplesmente se tornou o filme mais visto da história da Netflix.
-                </p>
-            </div>
-
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR05pjnK0elS4sxL65Fk0_Jv2CbH0nhrC4uxp8crD6UTk-gMGWmIfrp8m5YbykvLpcyKhM&usqp=CAU"
-                    alt="Estreias HBO" class="HBO">
-                <h3><a href="./pages/hbo.html">Estreias na HBO Max em setembro/2025</a></h3>
-                <p>
-                    Já estão disponíveis as listas completas dos novos filmes e séries que chegam à plataforma no mês de
-                    setembro. Destaque para <strong>Friendship (2024)</strong>, estrelada por Paul Rudd, e
-                    <strong>Warfare (2025)</strong>, de Alex Garland.
-                </p>
-            </div>
-
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_DQN-8MOatqORbbis8SptV4bdHD0fp1wswQ&s"
-                    alt="Nintendo Switch 2" class="nintendo">
-                <h3><a href="./pages/switch2.html">Switch 2 é lançado no Brasil</a></h3>
-                <p>
-                    Gamescom destacou grandes lançamentos e a chegada oficial do novo console da Nintendo ao país.
-                </p>
-            </div>
-
-            <div>
-                <img src="./imgs/play.jpg" alt="State of Play" class="image_play">
-                <h3><a href="./pages/State of play.html">Novidades da PlayStation State of Play para setembro de 2025</a></h3>
-                <p>A Sony anunciou sua edição de setembro da State of Play, que deverá destacar novidades empolgantes no universo PlayStation</p>
-            </div>
-        </aside>
-
     </div>
 
     <footer>

@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0 auto;
     padding: 0;
-
+    
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    
 }
 
 .container {
@@ -21,11 +22,11 @@ body {
 header {
     background-color: rgb(144, 12, 148);
     color: white;
-    padding: 0,2rem 0;
+    padding: 0, 2rem 0;
     top: 0;
     width: 100%;
     z-index: 1000;
-    
+
 }
 
 header h1 {
@@ -40,8 +41,8 @@ header h1 {
 
 }
 
-.main-news {  
-    flex: 2; 
+.main-news {
+    flex: 2;
     background: white;
     padding: 20px;
     border-radius: 8px;
@@ -82,22 +83,34 @@ header h1 {
 }
 
 footer {
-    
-    position: static;
-    bottom: 0%;
+    height: 1%;
+    padding: 1%;
+    background-color: rgb(144, 12, 148);
+    color: white;
     border-top: 1px solid #ccc;
+
+}
+footer img{
+    width: 20%;
+}
+.copy{
+    display: flex;
+    gap: 40%;
+
 }
 
 .Logo_Hall {
     height: 50px;
 }
-nav{
+
+nav {
     display: flex;
     text-align: center;
     align-items: end;
     margin-top: 3%;
 }
-.menu{
+
+.menu {
     list-style: none;
     display: cen;
     margin: 0;
@@ -105,23 +118,29 @@ nav{
     text-align: center;
 }
 
-.menu li{
-    position:relative;
-    float:left;
+.menu li {
+    position: relative;
+    float: left;
 }
 
-.menu li a{color:#ffffff; text-decoration:none; padding:5px 10px; display:block;}
-
-.menu li a:hover{
-    background:rgba(255, 255, 255, 0.49);
-    color:#000000;;
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
 }
 
-.menu li  ul{
-    position:absolute;
-    left:0;
-    background-color:rgb(85, 5, 97);
-    display:none;
+.menu li a:hover {
+    background: rgba(255, 255, 255, 0.49);
+    color: #000000;
+    ;
+}
+
+.menu li ul {
+    position: absolute;
+    left: 0;
+    background-color: rgb(85, 5, 97);
+    display: none;
 }
 
 .secao-oculta {
@@ -147,70 +166,92 @@ nav{
     transform: scale(1.05);
     text-decoration: underline;
 }
-.nyfw{
-    width: 70%;
-}
-.desfile{
-    width: 70%;
-}
-.ult{
+
+.nyfw {
     width: 70%;
 }
 
-.main-login{
+.desfile {
+    width: 70%;
+}
+
+.ult {
+    width: 70%;
+}
+
+.main-login {
     width: 50%;
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.lbuttons{
+
+.lbuttons {
     text-align: center;
 }
-.lbuttonlink{
+
+.lbuttonlink {
     text-decoration: none;
     color: white;
 }
-.cbuttonlink{
+
+.cbuttonlink {
     text-decoration: none;
 }
-.lbutton{
+
+.lbutton {
     border: none;
     border-radius: 5px;
     background-color: rgb(144, 12, 148);
     width: 20%;
     height: 20%;
 }
-.cbutton{
+
+.cbutton {
     border: rgb(144, 12, 148);
     border-radius: 5px;
     width: 20%;
     height: 20%;
 }
-.login{
+
+.login {
     line-height: 1.8;
-    
+
 }
-.ltitulo{
+
+.ltitulo {
     text-align: center;
     color: rgb(144, 12, 148);
     font-size: 250%;
 }
-.main-cadastro{
+
+.main-cadastro {
     width: 50%;
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.cadastro{
+
+.cadastro {
     line-height: 1.8;
 }
-.ctitulo{
+
+.ctitulo {
     text-align: center;
     color: rgb(144, 12, 148);
     font-size: 250%;
 }
-.divcheck{
+
+.divcheck {
     line-height: 1;
+}
+.log{
+    display: flex;
+    align-items: end;
+}
+.btlog{
+    color: white;
+    
 }

@@ -82,14 +82,7 @@ header h1 {
     padding-bottom: 0;
 }
 
-footer {
-    height: 1%;
-    padding: 1%;
-    background-color: rgb(144, 12, 148);
-    color: white;
-    border-top: 1px solid #ccc;
 
-}
 footer img{
     width: 20%;
 }
@@ -258,4 +251,199 @@ nav {
 .btlog{
     color: white;
     
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --background-header: rgb(144, 12, 148);
+    --background-menu: #6e6d6d11;
+    --background-body: #f4f4f4;
+    --cor-texto: #000000; 
+    --background-footer: rgb(144, 12, 148);
+}
+
+.site {
+    min-height: 100vh; 
+    background-color: var(--background-body);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding-top: 80px;
+
+}
+
+#ferramenta {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#ferramenta:checked ~ .site {
+    --background-body: #1A1A1A;
+    --cor-texto: #ffffff;
+    --background-bar: #2A2B2D;
+    --background-news: #2A2B2D;
+    --background-footer: #640068;
+}
+
+.dark-mode {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.bx {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-menu);
+    padding: 1rem 2rem;
+    color: rgb(0, 0, 0);
+}
+
+
+header {
+    background-color: var(--background-header);
+    color: white;
+    padding: 0.2rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.main-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.main-news {
+    flex: 2;
+    background: var(--background-news);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: var(--cor-texto);
+}
+
+.main-news img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.sidebar {
+    flex: 1;
+    background: var(--background-bar);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: var(--cor-texto);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.sidebar article {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    height: 15%;
+    padding: 1%;
+    background-color: var(--background-footer);
+    color: white;
+}
+
+.Logo_Hall {
+    height: 50px;
+}
+nav{
+    display: flex;
+    text-align: center;
+    align-items: end;
+    margin-top: 3%;
+}
+.menu{
+    list-style: none;
+    display: cen;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+}
+
+.menu li a{color:#ffffff; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+    background:rgba(255, 255, 255, 0.49);
+    color:#000000;
+}
+
+.menu li  ul{
+    position:absolute;
+    left:0;
+    background-color:rgb(85, 5, 97);
+    display:none;
+}
+
+.secao-oculta {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-out;
+}
+
+.secao-expandida {
+    max-height: 500px;
+    transition: max-height 0.7s ease-in;
+}
+
+#leia-mais-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+#leia-mais-link:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
 }
